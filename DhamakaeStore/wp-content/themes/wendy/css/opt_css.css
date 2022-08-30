@@ -1,0 +1,18 @@
+.main-container .shop-products.grid-view .item-col .product-wrapper .list-col8 .gridview {
+	height: 150px;
+}
+.main-container .shop-products .item-col .product-wrapper h2.product-name {
+	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.header-container .header .left-logo {
+    background: none;
+}
+.header-container .header .horizontal-menu {
+    padding: 45px 50px;
+}
+.header-container .header .horizontal-menu .primary-menu-container ul.nav-menu li a {
+	font-size: 17px;
+}

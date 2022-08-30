@@ -1,0 +1,49 @@
+.footer .footer-middle .flex-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.main-container .shop-products .item-col .product-wrapper .product-image {
+	background: white;
+    height: 300px;
+}
+.main-container .shop-products .item-col .product-wrapper .product-image a img {
+	width: auto !important;
+	height: 280px;
+}
+.images.hasthumb {
+    height: 500px;
+}
+.woocommerce-product-gallery__image img {
+    width: auto;
+    height: 450px;
+    margin: auto;
+    display: block;
+}
+
+element.style {
+}
+.main-container .shop-products.grid-view .item-col .product-wrapper .list-col8 .gridview {
+	height: 150px;
+}
+.main-container .shop-products .item-col .product-wrapper h2.product-name {
+	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.single-product-image {
+    height: 600px;
+}
+.main-container .product-view .single-product-image .images .yith_magnifier_zoom_wrap a img {
+    height: 500px;
+		width: auto;
+}
+.header-container .header .left-logo {
+    background: none;
+}
+.header-container .header .horizontal-menu {
+    padding: 45px 50px;
+}
+.header-container .header .horizontal-menu .primary-menu-container ul.nav-menu li a {
+	font-size: 17px;
+}

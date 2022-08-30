@@ -1,0 +1,110 @@
+#toplevel_page_roadtheme-setup .wp-menu-image img {
+	padding: 0 !important;
+}
+.r_item.demo_data {
+	opacity:0.2;
+	pointer-events: none;
+}
+.r_item.install {
+	opacity:1;
+}
+.import-data-content .content-inner {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.import-data-content .content-inner .loading {
+	position: fixed;
+	background: rgba(0,0,0,0.3);
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.import-data-content .content-inner .loading .image {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.import-data-content .content-inner .r_item {
+	flex: 0 0 25%; 
+	text-align: center; 
+	max-width: 25%;
+}
+.import-data-content .content-inner .r_item .item-inner {
+	padding: 0 10px;
+}
+.import-data-content .content-inner .r_item .item-inner .image { 
+	position: relative;
+}
+.import-data-content .content-inner .r_item .item-inner image:before {
+	content:"";
+	background: rgba(255,255,255,0.2);
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 3;
+	opacity: 0;
+}
+.import-data-content .content-inner .r_item .item-inner:hover image:before {
+	opacity: 1;
+}
+.import-data-content .content-inner .r_item .item-inner .image img {
+	width: 100%;
+	display: block;
+}
+.import-data-content .content-inner .r_item .item-inner form input[type="submit"] {
+	background: #0363cd;
+    border: 0;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 3px; 
+    cursor: pointer;
+}
+.import-data-content .content-inner .r_item .item-inner form input[type="submit"]:hover {
+	background: #222;
+}
+.import-data-content .content-inner .r_item.actived .item-inner form input[type="submit"] { 
+	background: #78c20f;
+	cursor: not-allowed;
+}
+.import-data-content .content-inner .r_item .item-inner .image label {
+	position: absolute;
+    right: 0;
+    top: 0;
+    background: #78c20f;
+    color: #fff;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    cursor: none;
+	z-index: 5;
+}
+.import-data-content .content-inner .r_item.actived .item-inner .image {
+	border: 3px solid #78c20f; 
+}
+.system_icon1{ 
+	display: inline-block;
+	margin-left: 5px;
+	vertical-align: middle; 
+}
+.system_requirement span.system_icon1{
+	background:url('../images/true.png'); 
+	width:20px;
+	height:20px;
+}
+.system_requirement span.system_icon{
+	background:url('../images/false.png');
+	display:block;
+	width:20px;
+	height:20px;
+}
+.roadthemez-plugins li b {
+	display: inline-block;
+	vertical-align: middle;
+}

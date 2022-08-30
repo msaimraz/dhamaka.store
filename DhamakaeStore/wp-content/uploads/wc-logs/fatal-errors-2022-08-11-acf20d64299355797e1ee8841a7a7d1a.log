@@ -1,0 +1,166 @@
+2022-08-11T02:21:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\Dhamaka_eStore\wp-includes\wp-db.php on line 2169
+
+2022-08-11T02:25:11+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported in D:\xampp\htdocs\Dhamaka_eStore\wp-content\plugins\roadthemes-helper\less\lessc.inc.php on line 717
+
+2022-08-11T02:31:39+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported in D:\xampp\htdocs\Dhamaka_eStore\wp-content\plugins\roadthemes-helper\less\lessc.inc.php on line 632
+
+2022-08-11T04:32:35+00:00 CRITICAL Unmatched ')' in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\footer.php on line 14
+
+2022-08-11T05:48:34+00:00 CRITICAL Uncaught Error: Attempt to modify property "classes" on null in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php:283
+Stack trace:
+#0 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\class-wp-hook.php(309): road_first_and_last_menu_class(Array)
+#1 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\nav-menu-template.php(226): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#3 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\header-first.php(73): wp_nav_menu(Object(stdClass))
+#4 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#6 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\header.php(47): get_header('first')
+#8 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#10 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\page-templates\contact-page.php(17): get_header()
+#12 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\Dhamaka_eStore\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\Dhamaka_eStore\index.php(17): require('D:\\xampp\\htdocs...')
+#15 {main}
+  thrown in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php on line 283
+
+2022-08-11T05:49:01+00:00 CRITICAL Uncaught Error: Attempt to modify property "classes" on null in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php:283
+Stack trace:
+#0 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\class-wp-hook.php(309): road_first_and_last_menu_class(Array)
+#1 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\nav-menu-template.php(226): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#3 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\header-first.php(73): wp_nav_menu(Object(stdClass))
+#4 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#6 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\header.php(47): get_header('first')
+#8 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#10 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\page-templates\front-page.php(17): get_header()
+#12 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\Dhamaka_eStore\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\Dhamaka_eStore\index.php(17): require('D:\\xampp\\htdocs...')
+#15 {main}
+  thrown in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php on line 283
+
+2022-08-11T05:49:15+00:00 CRITICAL Uncaught Error: Attempt to modify property "classes" on null in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php:283
+Stack trace:
+#0 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\class-wp-hook.php(309): road_first_and_last_menu_class(Array)
+#1 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\nav-menu-template.php(226): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#3 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\header-first.php(73): wp_nav_menu(Object(stdClass))
+#4 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#6 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\header.php(47): get_header('first')
+#8 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#10 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\page-templates\front-page.php(17): get_header()
+#12 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\Dhamaka_eStore\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\Dhamaka_eStore\index.php(17): require('D:\\xampp\\htdocs...')
+#15 {main}
+  thrown in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php on line 283
+
+2022-08-11T07:36:00+00:00 CRITICAL Uncaught Error: Attempt to modify property "classes" on null in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php:283
+Stack trace:
+#0 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\class-wp-hook.php(309): road_first_and_last_menu_class(Array)
+#1 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\nav-menu-template.php(226): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#3 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\header-first.php(73): wp_nav_menu(Object(stdClass))
+#4 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#6 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\header.php(47): get_header('first')
+#8 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#10 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\page-templates\front-page.php(17): get_header()
+#12 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\Dhamaka_eStore\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\Dhamaka_eStore\index.php(17): require('D:\\xampp\\htdocs...')
+#15 {main}
+  thrown in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php on line 283
+
+2022-08-11T07:59:35+00:00 CRITICAL Uncaught Error: Attempt to modify property "classes" on null in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php:283
+Stack trace:
+#0 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\class-wp-hook.php(309): road_first_and_last_menu_class(Array)
+#1 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\nav-menu-template.php(226): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#3 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\header-first.php(42): wp_nav_menu(Object(stdClass))
+#4 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#6 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\header.php(47): get_header('first')
+#8 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#10 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\page-templates\front-page.php(17): get_header()
+#12 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\Dhamaka_eStore\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\Dhamaka_eStore\index.php(17): require('D:\\xampp\\htdocs...')
+#15 {main}
+  thrown in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php on line 283
+
+2022-08-11T10:47:26+00:00 CRITICAL Uncaught Error: Attempt to modify property "classes" on null in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php:283
+Stack trace:
+#0 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\class-wp-hook.php(309): road_first_and_last_menu_class(Array)
+#1 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\nav-menu-template.php(226): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#3 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\class-wp-customize-nav-menus.php(1581): wp_nav_menu(Object(stdClass))
+#4 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\customize\class-wp-customize-partial.php(221): WP_Customize_Nav_Menus->render_nav_menu_partial(NULL, Array)
+#5 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#6 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\class-wp-hook.php(307): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#7 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template-loader.php(13): do_action('template_redire...')
+#10 D:\xampp\htdocs\Dhamaka_eStore\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#11 D:\xampp\htdocs\Dhamaka_eStore\index.php(17): require('D:\\xampp\\htdocs...')
+#12 {main}
+  thrown in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php on line 283
+
+2022-08-11T10:47:30+00:00 CRITICAL Uncaught Error: Attempt to modify property "classes" on null in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php:283
+Stack trace:
+#0 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\class-wp-hook.php(309): road_first_and_last_menu_class(Array)
+#1 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\nav-menu-template.php(226): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#3 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\header-first.php(73): wp_nav_menu(Object(stdClass))
+#4 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#6 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\header.php(47): get_header('first')
+#8 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#10 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\page-templates\front-page.php(17): get_header()
+#12 D:\xampp\htdocs\Dhamaka_eStore\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\Dhamaka_eStore\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\Dhamaka_eStore\index.php(17): require('D:\\xampp\\htdocs...')
+#15 {main}
+  thrown in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy\functions.php on line 283
+
+2022-08-11T12:44:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy-child\functions.php on line 35 and at least 2 expected in D:\xampp\htdocs\Dhamaka_eStore\wp-includes\plugin.php:571
+Stack trace:
+#0 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy-child\functions.php(35): remove_action('sharefriend')
+#1 D:\xampp\htdocs\Dhamaka_eStore\wp-settings.php(566): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Dhamaka_eStore\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\Dhamaka_eStore\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\Dhamaka_eStore\wp-cron.php(44): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\Dhamaka_eStore\wp-includes\plugin.php on line 571
+
+2022-08-11T12:44:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy-child\functions.php on line 35 and at least 2 expected in D:\xampp\htdocs\Dhamaka_eStore\wp-includes\plugin.php:571
+Stack trace:
+#0 D:\xampp\htdocs\Dhamaka_eStore\wp-content\themes\wendy-child\functions.php(35): remove_action('sharefriend')
+#1 D:\xampp\htdocs\Dhamaka_eStore\wp-settings.php(566): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Dhamaka_eStore\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\Dhamaka_eStore\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\Dhamaka_eStore\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Dhamaka_eStore\wp-admin\theme-editor.php(10): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\Dhamaka_eStore\wp-includes\plugin.php on line 571
+
